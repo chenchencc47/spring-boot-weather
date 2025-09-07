@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: spring-boot-weather
+    env: java
+    buildCommand: ""      # 已打成 jar，无需再构建
+    startCommand: "java -jar weather-query-system-0.0.1-SNAPSHOT.jar"
+    plan: free
+    autoDeploy: true
