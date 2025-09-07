@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: weather-query-system
+
+kimi:
+  key: sk-7K6VMgoF811pPq5eIs9KL1Tne9365t6eKSPIUXluxtJCBTRY
